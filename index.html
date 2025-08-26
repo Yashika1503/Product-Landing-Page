@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://img.freepik.com/premium-vector/guitar-logo_10250-2275.jpg?w=740" width="80px" height="80px" alt="Guitar Shop Logo" />
+      <h1 class="header-title">GET A GUITAR</h1>
+      <nav id="nav-bar">
+        <ul class="nav-bar">
+          <li><a class="nav-link" href="#Features">Features</a></li>
+          <li><a class="nav-link" href="#How_To_Choose">How To Choose</a></li>
+          <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-doc">
+      <section class="form">
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+          <h2 class="form-title">Handcrafted, home-made masterpieces</h2>
+          <input name="email" id="email" placeholder="Enter your e-mail address" type="email" required />
+          <input id="submit" type="submit" value="Get Started!" />
+        </form>
+      </section>
+      <section id="Features" class="main-section">
+        <h3 class="section-title">Premium Materials</h3>
+        <p>Our guitars are crafted from the finest woods, ensuring exceptional sound quality and durability.</p>
+        <h3 class="section-title">Fast Shipping</h3>
+        <p>We guarantee prompt delivery and offer free returns if the guitar doesn't meet your expectations.</p>
+        <h3 class="section-title">Quality Assurance</h3>
+        <p>Every guitar undergoes rigorous testing for tuning, intonation, and overall build quality to meet our high standards.</p>
+      </section>
+      <section class="video" id="How_To_Choose" class="main-section">
+        <h3 class="section-title">Here is a guide to help you choose your first guitar!</h3>
+        <video id="video" width="640" height="360" controls>
+          <source src="https://youtu.be/Zw0lAATAEr4?si=pyK8ClE5kpNq6pJH" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      <section id="Pricing" class="main-section">
+        <h2 class="section-title">Pricing</h2>
+        <div class="card-container">
+          <div class="card">
+            <h3>Acoustic Guitar</h3>
+            <ul class="price">
+              <li><strong>Beginner</strong>: $300</li>
+              <li><strong>Intermediate</strong>: $700</li>
+              <li><strong>Professional</strong>: $1800</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Electric Guitar</h3>
+            <ul class="price">
+              <li><strong>Beginner</strong>: $400</li>
+              <li><strong>Intermediate</strong>: $1000</li>
+              <li><strong>Professional</strong>: $2700</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Bass Guitar</h3>
+            <ul class="price">
+              <li><strong>Beginner</strong>: $300</li>
+              <li><strong>Intermediate</strong>: $600</li>
+              <li><strong>Professional</strong>: $2000</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>Contact: +91 9876543210</p>
+        <p>Email: <a href="mailto:getaguitar@gmail.com">getaguitar@gmail.com</a></p>
+        <p>&copy; 2024 Get A Guitar. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
